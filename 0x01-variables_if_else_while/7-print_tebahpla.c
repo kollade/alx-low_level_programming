@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-	char = 'z';
+	char k = 'z';
 
 	while (k >= 'a')
 	{
 		putchar(k);
 		k--;
 	}
-	putchar('n\');
+	putchar('\n');
 	reutrn (0);
 }
