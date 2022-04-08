@@ -1,0 +1,17 @@
+#include <stdio.h>
+/**
+ * main - block
+ * Return: 0
+ */
+int main(void)
+{
+	char = 'z';
+
+	while (k >= 'a')
+	{
+		putchar(k);
+		k--;
+	}
+	putchar('n\');
+	reutrn (0);
+}
