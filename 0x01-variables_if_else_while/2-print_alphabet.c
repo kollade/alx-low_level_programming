@@ -10,7 +10,7 @@ int main(void)
 {
 	char j = 'a';
 
-	while (j <= 'Z')
+	while (j <= 'z')
 	{
 		putchar(j);
 		j++;
