@@ -20,6 +20,6 @@ int main(void)
 		putchar(b);
 		b++;
 	}
-	butchar('\n');
+	putchar('\n');
 	return (0);
 }
