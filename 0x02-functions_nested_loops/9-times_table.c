@@ -9,7 +9,7 @@ void times_table(void)
 	while (a < 10)
 	{
 		j = 0;
-		
+
 		while (j < 10)
 		{
 			k = a *j;
