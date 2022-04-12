@@ -10,13 +10,13 @@ void print_to_98(int n)
 	{
 		while (n < 99)
 		{
-			print(%i, n);
+			printf(%i, n);
 
 			if (n < 98)
 			{
 				printf(", ");
 			}
-			a++;
+			n++;
 		}
 	}
 
