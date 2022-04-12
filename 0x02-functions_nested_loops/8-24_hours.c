@@ -11,7 +11,7 @@ void jack_bauer(void)
 	while (a < 24)
 	{
 		for (d = 0; d < 60; d++)
-		{	
+		{
 			b = a % 10;
 			c = a / 10;
 			e = d % 10;
