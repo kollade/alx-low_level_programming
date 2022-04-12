@@ -12,7 +12,7 @@ void times_table(void)
 
 		while (j < 10)
 		{
-			k = a *j;
+			k = a * j;
 
 			if (k <= 9 && j != 0)
 			{
