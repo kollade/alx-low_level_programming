@@ -10,7 +10,7 @@ void print_diagonal(int n)
 	if (n > 0)
 	{
 		_putchar(92);
-		IF (n >1)
+		if (n >1)
 		{
 			for (i = 1; i < n; i++)
 			{
