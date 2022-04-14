@@ -1,1 +1,1 @@
-fsdf
+int _isupper(int c);
