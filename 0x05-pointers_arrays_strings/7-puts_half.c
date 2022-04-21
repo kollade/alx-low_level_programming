@@ -3,7 +3,7 @@
  * puts-half - prints 2nd half of a string
  * @str: char type pointer
  */
-void puts_half(char *star)
+void puts_half(char *str)
 {
 	int i, j, k;
 
