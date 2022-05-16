@@ -6,19 +6,19 @@
  * @separator: charcter used to seperate numbers
  * @n: number of numbers to print
  */
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int u, ...)
 {
 	unsigned int i, x;
-	var_list nums;
+	va_list nums;
 
-	var_start(nums, n);
+	va_start(nums, u);
 	for (i = 0; i < n; i++)
 	{
-		x = var_arg(nums, int);
+		x = va_arg(nums, int);
 		printf("%i", x);
-		if (i < (n - 1) && separator !=  NULL)
+		if (i < (u - 1) && separator !=  NULL)
 			printf("%s", separator);
 	}
-	var_end(nums);
+	va_end(nums);
 	printf("\n");
 }
