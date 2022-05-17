@@ -6,17 +6,17 @@
  * @separator: charcter used to seperate numbers
  * @n: number of numbers to print
  */
-void print_numbers(const char *separator, const unsigned int u, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	unsigned int j, x;
+	unsigned int i, j;
 	va_list nums;
 
-	va_start(nums, u);
-	for (j = 0; j < n; j++)
+	va_start(nums, n);
+	for (i = 0; i < n; i++)
 	{
-		x = va_arg(nums, int);
-		printf("%i", x);
-		if (j < (u - 1) && separator !=  NULL)
+		j = va_arg(nums, int);
+		printf("%i", j);
+		if (i < (n - 1) && separator !=  NULL)
 			printf("%s", separator);
 	}
 	va_end(nums);
